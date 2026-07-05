@@ -12,7 +12,9 @@ export default function PhoneMockup({
     <div className={`phone ${className}`}>
       <div className="phone-frame">
         <div className="phone-notch" />
-        <div className="phone-screen">{children}</div>
+        <div className="phone-screen">
+          <div className="screen-fit">{children}</div>
+        </div>
       </div>
       <div className="phone-glow" />
     </div>

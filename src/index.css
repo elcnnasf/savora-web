@@ -321,6 +321,22 @@ body::before {
   border-radius: 34px; overflow: hidden;
   background: #ffffff;
 }
+/* Render the whole mockup at 2× computed size, then paint it back down.
+   Mobile in-app browsers (Instagram/TikTok) force "font boosting" on small
+   text and ignore text-size-adjust — but they don't boost text that is
+   already ~16px+. Zoom doubles every computed length uniformly (text, icons,
+   images) so the autosizer leaves it alone; the transform scales the painted
+   result back so it looks identical to desktop everywhere. */
+.screen-fit {
+  width: 100%;
+  height: 100%;
+  zoom: 2;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+@supports not (zoom: 2) {
+  .screen-fit { zoom: normal; transform: none; }
+}
 .phone-glow {
   position: absolute; inset: -40px -20px -60px; z-index: -1;
   background: radial-gradient(circle at 50% 40%, rgba(249, 115, 22, 0.3), transparent 65%);
@@ -384,9 +400,10 @@ body::before {
 .am-tile {
   border-radius: 12px; padding: 8px 6px; color: #fff;
   display: flex; flex-direction: column; gap: 3px; min-height: 62px;
+  overflow: hidden;
 }
-.am-tile-t { font-size: 8.5px; font-weight: 700; line-height: 1.1; margin-top: auto; }
-.am-tile-s { font-size: 7px; opacity: 0.85; line-height: 1.05; }
+.am-tile-t { font-size: 8.5px; font-weight: 700; line-height: 1.1; margin-top: auto; white-space: nowrap; }
+.am-tile-s { font-size: 7px; opacity: 0.85; line-height: 1.05; white-space: nowrap; }
 
 .am-rec-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
 .am-rec-title { font-family: var(--display); font-size: 12.5px; font-weight: 700; color: #1f2937; }
