@@ -37,7 +37,12 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
 body {
   font-family: var(--sans);
@@ -297,7 +302,7 @@ body::before {
 /* ============================================================
    Phone mockups (frame)
    ============================================================ */
-.phone { position: relative; width: 280px; height: 600px; max-width: 100%; }
+.phone { position: relative; width: 280px; height: 600px; flex-shrink: 0; }
 .phone-frame {
   position: relative;
   height: 100%;
@@ -338,6 +343,16 @@ body::before {
   font-size: 11px;
   overflow: hidden;
 }
+/* Force mobile browsers to render the mockup at its true fixed size —
+   disable Android/Chrome automatic font-boosting that would otherwise
+   enlarge the tiny in-app text and break the layout. The huge max-height
+   is the documented trick that turns text auto-sizing off. */
+.appmock,
+.appmock * {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  max-height: 1000000px;
+}
 .am-status {
   display: flex; justify-content: space-between; align-items: center;
   font-size: 9.5px; font-weight: 700; color: #111;
@@ -346,7 +361,7 @@ body::before {
 .am-dots { display: inline-flex; gap: 3px; }
 .am-dots i { width: 4px; height: 4px; border-radius: 50%; background: #111; }
 
-.am-body { flex: 1; padding: 6px 13px 8px; overflow: hidden; }
+.am-body { flex: 1; min-height: 0; padding: 6px 13px 8px; overflow: hidden; }
 
 .am-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
 .am-brand { display: inline-flex; align-items: center; gap: 5px; }
