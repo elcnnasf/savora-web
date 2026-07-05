@@ -297,14 +297,14 @@ body::before {
 /* ============================================================
    Phone mockups (frame)
    ============================================================ */
-.phone { position: relative; width: 280px; }
+.phone { position: relative; width: 280px; height: 600px; max-width: 100%; }
 .phone-frame {
   position: relative;
+  height: 100%;
   border-radius: 44px;
   padding: 11px;
   background: linear-gradient(160deg, #2a241d, #141009);
   box-shadow: var(--shadow), 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
-  aspect-ratio: 9 / 19.3;
 }
 .phone-notch {
   position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
@@ -567,12 +567,12 @@ body::before {
   position: absolute; inset: 0; z-index: -1;
   background: radial-gradient(700px 500px at 50% 60%, rgba(234, 88, 12, 0.1), transparent 65%);
 }
-.preview-stage { position: relative; height: 640px; display: flex; align-items: center; justify-content: center; }
+.preview-stage { position: relative; height: 700px; display: flex; align-items: center; justify-content: center; }
 .preview-phone { position: absolute; }
 .preview-phone.front { z-index: 3; transform: translateY(6px); }
-.preview-phone.front .phone { width: 300px; }
+.preview-phone.front .phone { width: 300px; height: 643px; }
 .preview-phone.back-left { z-index: 2; transform: translate(-230px, 24px) rotate(-8deg); opacity: 0.96; }
-.preview-phone.back-left .phone { width: 258px; }
+.preview-phone.back-left .phone { width: 258px; height: 553px; }
 .preview-phone.back-left .phone-glow { opacity: 0.5; }
 
 /* ============================================================
@@ -825,10 +825,10 @@ body::before {
   .nav-inner { height: 64px; }
   .section { padding: 88px 0; }
   .section-head { margin-bottom: 46px; }
-  .preview-stage { height: 560px; }
+  .preview-stage { height: 620px; }
   .preview-phone.back-left { transform: translate(-120px, 30px) rotate(-8deg); opacity: 0.5; }
-  .preview-phone.back-left .phone { width: 220px; }
-  .preview-phone.front .phone { width: 270px; }
+  .preview-phone.back-left .phone { width: 220px; height: 471px; }
+  .preview-phone.front .phone { width: 270px; height: 579px; }
   .footer-inner { flex-direction: column; }
   .footer-right { align-items: flex-start; }
 }
@@ -852,9 +852,12 @@ body::before {
   .store-badge { width: 100%; justify-content: center; }
   .cta { padding-bottom: 92px; }
   .cta-card { padding: 52px 20px 60px; }
-  .preview-stage { height: 520px; }
+  /* Single phone in normal flow — no absolute overlap that can bleed
+     into neighbouring sections on narrow screens */
+  .preview-stage { height: auto; display: flex; padding: 6px 0; }
   .preview-phone.back-left { display: none; }
-  .preview-phone.front .phone { width: 260px; }
+  .preview-phone.front { position: static; transform: none; }
+  .preview-phone.front .phone { width: 258px; height: 553px; }
   .footer { padding-top: 52px; }
 }
 
@@ -864,8 +867,7 @@ body::before {
   .brand-logo { width: 30px; height: 30px; }
   .hero { padding-top: 104px; }
   .hero-title { font-size: clamp(33px, 12vw, 46px); }
-  .hero-phone, .preview-phone.front .phone { width: 240px; }
-  .preview-stage { height: 480px; }
+  .hero-phone, .preview-phone.front .phone { width: 240px; height: 515px; }
   .section { padding: 64px 0; }
   .feature-card { padding: 24px 20px; }
   .why-card, .why-card-big { padding: 24px 20px; }
