@@ -1,7 +1,7 @@
 import { useI18n } from '../i18n';
 import Reveal from './Reveal';
 import PhoneMockup from './PhoneMockup';
-import { DiscoverScreenMock, ScanScreenMock } from './ScreenMockups';
+import { ScreenImage, ScanScreenMock } from './ScreenMockups';
 
 export default function AppPreview() {
   const { t } = useI18n();
@@ -24,8 +24,8 @@ export default function AppPreview() {
           </Reveal>
 
           <Reveal className="preview-phone front" delay={0}>
-            <PhoneMockup>
-              <DiscoverScreenMock />
+            <PhoneMockup bare>
+              <ScreenImage src="/img/screen-discover.jpg" alt="Savora Discover screen" />
             </PhoneMockup>
           </Reveal>
         </div>

@@ -9,6 +9,12 @@ import {
    brand) so the phone frames mirror the actual product. Text is kept in
    English to match App-Store-style marketing screenshots. */
 
+/* Real Savora app screenshots (Home & Discover). These render identically on
+   web and phone because they are plain images — no font-boosting to fight. */
+export function ScreenImage({ src, alt }: { src: string; alt: string }) {
+  return <img className="screen-img" src={src} alt={alt} draggable={false} />;
+}
+
 function BottomNav({ active }: { active: 'home' | 'discover' }) {
   const items = [
     { id: 'home', Icon: Home, label: 'Home' },

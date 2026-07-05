@@ -2,7 +2,7 @@ import { Sparkles, ChevronDown } from 'lucide-react';
 import { useI18n } from '../i18n';
 import StoreBadges from './StoreBadges';
 import PhoneMockup from './PhoneMockup';
-import { HomeScreenMock } from './ScreenMockups';
+import { ScreenImage } from './ScreenMockups';
 
 export default function Hero() {
   const { t } = useI18n();
@@ -37,8 +37,8 @@ export default function Hero() {
         </div>
 
         <div className="hero-visual">
-          <PhoneMockup className="hero-phone">
-            <HomeScreenMock />
+          <PhoneMockup className="hero-phone" bare>
+            <ScreenImage src="/img/screen-home.jpg" alt="Savora Home screen" />
           </PhoneMockup>
         </div>
       </div>
