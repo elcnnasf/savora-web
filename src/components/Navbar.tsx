@@ -17,6 +17,7 @@ export default function Navbar() {
     { id: 'features', label: t('nav.features') },
     { id: 'preview', label: t('nav.preview') },
     { id: 'why', label: t('nav.why') },
+    { id: 'premium', label: t('nav.premium') },
     { id: 'download', label: t('nav.download') },
   ];
 

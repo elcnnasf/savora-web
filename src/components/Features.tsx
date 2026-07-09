@@ -1,5 +1,6 @@
 import {
   Sparkles, ScanLine, Refrigerator, Heart, Activity, MessageCircle,
+  Flame, FolderHeart, CalendarDays,
 } from 'lucide-react';
 import { useI18n } from '../i18n';
 import Reveal from './Reveal';
@@ -10,6 +11,9 @@ export default function Features() {
   const items = [
     { icon: Sparkles, key: 'ai' },
     { icon: ScanLine, key: 'scan' },
+    { icon: Flame, key: 'calories', isNew: true },
+    { icon: CalendarDays, key: 'planner' },
+    { icon: FolderHeart, key: 'collections', isNew: true },
     { icon: Refrigerator, key: 'pantry' },
     { icon: Heart, key: 'reco' },
     { icon: Activity, key: 'nutrition' },
@@ -30,6 +34,7 @@ export default function Features() {
             const Icon = f.icon;
             return (
               <Reveal className="feature-card" delay={idx * 70} key={f.key}>
+                {f.isNew && <span className="feature-new">{t('features.newBadge')}</span>}
                 <div className="feature-icon">
                   <Icon size={22} strokeWidth={2} />
                 </div>

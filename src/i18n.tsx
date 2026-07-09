@@ -18,6 +18,7 @@ const en: Dict = {
   'nav.features': 'Features',
   'nav.preview': 'Preview',
   'nav.why': 'Why Savora',
+  'nav.premium': 'Premium',
   'nav.download': 'Download',
   'nav.comingSoon': 'Coming Soon',
 
@@ -51,6 +52,16 @@ const en: Dict = {
   'features.assistant.title': 'Cooking Assistant',
   'features.assistant.desc':
     'Ask anything while you cook — substitutions, techniques and tips from a chef that never leaves your side.',
+  'features.newBadge': 'New',
+  'features.calories.title': 'Calorie Counter',
+  'features.calories.desc':
+    'Snap a photo of any meal — or just type its name — and get calories, protein, carbs and fat in seconds.',
+  'features.collections.title': 'Recipe Collections',
+  'features.collections.desc':
+    'Organize saved recipes into beautiful collections and share them with friends in one tap.',
+  'features.planner.title': 'AI Meal Planner',
+  'features.planner.desc':
+    'A full week of meals planned around your budget, goals and taste — with a shopping list to match.',
 
   'preview.tag': 'App Preview',
   'preview.title': 'Beautiful, and built for the kitchen',
@@ -88,6 +99,43 @@ const en: Dict = {
   'why.everyday.desc':
     'Designed for real kitchens and real people — quick weeknight dinners, not just restaurant-grade showpieces.',
 
+  'premium.tag': 'Premium',
+  'premium.title': 'Go further with Premium',
+  'premium.subtitle':
+    'Unlock the most powerful AI features — built for people who take their food seriously.',
+  'premium.newChip': 'New · Premium feature',
+  'premium.calorie.title': 'Calorie Counter — know exactly what you eat',
+  'premium.calorie.desc':
+    'Point your camera at any plate and Savora breaks it down: calories, protein, carbs, fat and a full component breakdown — verified with nutrition-science math, in your language.',
+  'premium.point.photo': 'Photo analysis — from camera or gallery',
+  'premium.point.text': 'Or just type the dish and portion size',
+  'premium.point.collections': 'Recipe collections with sharing',
+  'premium.point.reminders': 'Smart meal reminders and daily ideas',
+  'premium.demo.dish': 'Chicken plov',
+  'premium.demo.portion': '1 plate (~400 g)',
+  'premium.demo.protein': 'Protein',
+  'premium.demo.carbs': 'Carbs',
+  'premium.demo.fat': 'Fat',
+  'premium.plan.popular': 'Most popular',
+  'premium.plan.best': 'Best value',
+  'premium.plan.perMonth': '/month',
+  'premium.plan.free.name': 'Free',
+  'premium.plan.free.f1': '3 AI recipes & 3 scans a day',
+  'premium.plan.free.f2': '10 AI chat messages a day',
+  'premium.plan.free.f3': '1 meal plan a day',
+  'premium.plan.free.f4': 'Collections & saved recipes',
+  'premium.plan.premium.name': 'Premium',
+  'premium.plan.premium.f1': 'Calorie Counter — 15 analyses a day',
+  'premium.plan.premium.f2': '10 AI recipes & 10 scans a day',
+  'premium.plan.premium.f3': '50 AI chat messages a day',
+  'premium.plan.premium.f4': 'Priority AI responses',
+  'premium.plan.pro.name': 'Pro',
+  'premium.plan.pro.f1': 'Calorie Counter — 40 analyses a day',
+  'premium.plan.pro.f2': '25 AI recipes & 20 scans a day',
+  'premium.plan.pro.f3': '100 AI chat messages a day',
+  'premium.plan.pro.f4': 'Fastest AI + early access to new features',
+  'premium.note': 'Plans are managed in the app. Prices in AZN; regional pricing on Google Play.',
+
   'cta.tag': 'Launching soon',
   'cta.title': 'Be the first to cook with Savora',
   'cta.subtitle':
@@ -107,6 +155,7 @@ const az: Dict = {
   'nav.features': 'İmkanlar',
   'nav.preview': 'Ön baxış',
   'nav.why': 'Niyə Savora',
+  'nav.premium': 'Premium',
   'nav.download': 'Yüklə',
   'nav.comingSoon': 'Tezliklə',
 
@@ -140,6 +189,16 @@ const az: Dict = {
   'features.assistant.title': 'Bişirmə Köməkçisi',
   'features.assistant.desc':
     'Bişirərkən istənilən şeyi soruşun — əvəzləmələr, texnikalar və məsləhətlər həmişə yanınızdadır.',
+  'features.newBadge': 'Yeni',
+  'features.calories.title': 'Kalori Sayğacı',
+  'features.calories.desc':
+    'İstənilən yeməyin şəklini çəkin — və ya sadəcə adını yazın — saniyələr içində kalori, protein, karbohidrat və yağı öyrənin.',
+  'features.collections.title': 'Resept Kolleksiyaları',
+  'features.collections.desc':
+    'Saxlanmış reseptləri gözəl kolleksiyalara yığın və bir toxunuşla dostlarınızla paylaşın.',
+  'features.planner.title': 'AI Yemək Planlayıcısı',
+  'features.planner.desc':
+    'Büdcənizə, hədəflərinizə və zövqünüzə uyğun bir həftəlik yemək planı — üstəlik alış-veriş siyahısı ilə.',
 
   'preview.tag': 'Tətbiq ön baxışı',
   'preview.title': 'Gözəl və mətbəx üçün yaradılıb',
@@ -177,6 +236,43 @@ const az: Dict = {
   'why.everyday.desc':
     'Real mətbəxlər və real insanlar üçün yaradılıb — yalnız restoran səviyyəli nümayişlər deyil, sürətli gündəlik yeməklər.',
 
+  'premium.tag': 'Premium',
+  'premium.title': 'Premium ilə daha irəli gedin',
+  'premium.subtitle':
+    'Ən güclü AI funksiyalarının kilidini açın — yeməyinə ciddi yanaşanlar üçün yaradılıb.',
+  'premium.newChip': 'Yeni · Premium funksiya',
+  'premium.calorie.title': 'Kalori Sayğacı — nə yediyinizi dəqiq bilin',
+  'premium.calorie.desc':
+    'Kameranı istənilən boşqaba tutun — Savora onu təhlil edir: kalori, protein, karbohidrat, yağ və tam tərkib bölgüsü — qida elmi riyaziyyatı ilə yoxlanılmış, sizin dilinizdə.',
+  'premium.point.photo': 'Şəkil analizi — kamera və ya qalereyadan',
+  'premium.point.text': 'Və ya sadəcə yeməyin adını və porsiyasını yazın',
+  'premium.point.collections': 'Paylaşıla bilən resept kolleksiyaları',
+  'premium.point.reminders': 'Ağıllı yemək xatırlatmaları və gündəlik ideyalar',
+  'premium.demo.dish': 'Toyuq plovu',
+  'premium.demo.portion': '1 boşqab (~400 q)',
+  'premium.demo.protein': 'Protein',
+  'premium.demo.carbs': 'Karb.',
+  'premium.demo.fat': 'Yağ',
+  'premium.plan.popular': 'Ən populyar',
+  'premium.plan.best': 'Ən sərfəli',
+  'premium.plan.perMonth': '/ay',
+  'premium.plan.free.name': 'Pulsuz',
+  'premium.plan.free.f1': 'Gündə 3 AI resept və 3 skan',
+  'premium.plan.free.f2': 'Gündə 10 AI chat mesajı',
+  'premium.plan.free.f3': 'Gündə 1 yemək planı',
+  'premium.plan.free.f4': 'Kolleksiyalar və saxlanmış reseptlər',
+  'premium.plan.premium.name': 'Premium',
+  'premium.plan.premium.f1': 'Kalori Sayğacı — gündə 15 analiz',
+  'premium.plan.premium.f2': 'Gündə 10 AI resept və 10 skan',
+  'premium.plan.premium.f3': 'Gündə 50 AI chat mesajı',
+  'premium.plan.premium.f4': 'Prioritet AI cavabları',
+  'premium.plan.pro.name': 'Pro',
+  'premium.plan.pro.f1': 'Kalori Sayğacı — gündə 40 analiz',
+  'premium.plan.pro.f2': 'Gündə 25 AI resept və 20 skan',
+  'premium.plan.pro.f3': 'Gündə 100 AI chat mesajı',
+  'premium.plan.pro.f4': 'Ən sürətli AI + yeniliklərə erkən çıxış',
+  'premium.note': 'Planlar tətbiq daxilində idarə olunur. Qiymətlər AZN ilə; Google Play-də regional qiymətlər.',
+
   'cta.tag': 'Tezliklə işə düşür',
   'cta.title': 'Savora ilə bişirən ilk siz olun',
   'cta.subtitle':
@@ -196,6 +292,7 @@ const ru: Dict = {
   'nav.features': 'Возможности',
   'nav.preview': 'Превью',
   'nav.why': 'Почему Savora',
+  'nav.premium': 'Премиум',
   'nav.download': 'Скачать',
   'nav.comingSoon': 'Скоро',
 
@@ -229,6 +326,16 @@ const ru: Dict = {
   'features.assistant.title': 'Кулинарный ассистент',
   'features.assistant.desc':
     'Спрашивайте что угодно во время готовки — замены, техники и советы всегда рядом.',
+  'features.newBadge': 'Новое',
+  'features.calories.title': 'Счётчик калорий',
+  'features.calories.desc':
+    'Сфотографируйте любое блюдо — или просто введите его название — и за секунды узнайте калории, белки, углеводы и жиры.',
+  'features.collections.title': 'Коллекции рецептов',
+  'features.collections.desc':
+    'Собирайте сохранённые рецепты в красивые коллекции и делитесь ими с друзьями в одно касание.',
+  'features.planner.title': 'AI план питания',
+  'features.planner.desc':
+    'Неделя блюд, спланированная под ваш бюджет, цели и вкус — вместе со списком покупок.',
 
   'preview.tag': 'Превью приложения',
   'preview.title': 'Красиво и создано для кухни',
@@ -266,6 +373,43 @@ const ru: Dict = {
   'why.everyday.desc':
     'Создано для настоящих кухонь и реальных людей — быстрые ужины по будням, а не только ресторанные шедевры.',
 
+  'premium.tag': 'Премиум',
+  'premium.title': 'Больше возможностей с Премиум',
+  'premium.subtitle':
+    'Откройте самые мощные AI-функции — для тех, кто серьёзно относится к своей еде.',
+  'premium.newChip': 'Новое · Премиум-функция',
+  'premium.calorie.title': 'Счётчик калорий — знайте точно, что вы едите',
+  'premium.calorie.desc':
+    'Наведите камеру на любую тарелку — Savora разберёт её: калории, белки, углеводы, жиры и полный состав — проверено формулами нутрициологии, на вашем языке.',
+  'premium.point.photo': 'Анализ по фото — с камеры или из галереи',
+  'premium.point.text': 'Или просто введите блюдо и размер порции',
+  'premium.point.collections': 'Коллекции рецептов с возможностью делиться',
+  'premium.point.reminders': 'Умные напоминания о еде и идеи дня',
+  'premium.demo.dish': 'Плов с курицей',
+  'premium.demo.portion': '1 тарелка (~400 г)',
+  'premium.demo.protein': 'Белки',
+  'premium.demo.carbs': 'Углев.',
+  'premium.demo.fat': 'Жиры',
+  'premium.plan.popular': 'Самый популярный',
+  'premium.plan.best': 'Выгоднее всего',
+  'premium.plan.perMonth': '/мес',
+  'premium.plan.free.name': 'Бесплатно',
+  'premium.plan.free.f1': '3 AI-рецепта и 3 скана в день',
+  'premium.plan.free.f2': '10 сообщений AI-чата в день',
+  'premium.plan.free.f3': '1 план питания в день',
+  'premium.plan.free.f4': 'Коллекции и сохранённые рецепты',
+  'premium.plan.premium.name': 'Премиум',
+  'premium.plan.premium.f1': 'Счётчик калорий — 15 анализов в день',
+  'premium.plan.premium.f2': '10 AI-рецептов и 10 сканов в день',
+  'premium.plan.premium.f3': '50 сообщений AI-чата в день',
+  'premium.plan.premium.f4': 'Приоритетные ответы AI',
+  'premium.plan.pro.name': 'Pro',
+  'premium.plan.pro.f1': 'Счётчик калорий — 40 анализов в день',
+  'premium.plan.pro.f2': '25 AI-рецептов и 20 сканов в день',
+  'premium.plan.pro.f3': '100 сообщений AI-чата в день',
+  'premium.plan.pro.f4': 'Самый быстрый AI + ранний доступ к новинкам',
+  'premium.note': 'Планы управляются в приложении. Цены в AZN; региональные цены в Google Play.',
+
   'cta.tag': 'Скоро запуск',
   'cta.title': 'Готовьте с Savora первыми',
   'cta.subtitle':
@@ -285,6 +429,7 @@ const tr: Dict = {
   'nav.features': 'Özellikler',
   'nav.preview': 'Önizleme',
   'nav.why': 'Neden Savora',
+  'nav.premium': 'Premium',
   'nav.download': 'İndir',
   'nav.comingSoon': 'Yakında',
 
@@ -318,6 +463,16 @@ const tr: Dict = {
   'features.assistant.title': 'Pişirme Asistanı',
   'features.assistant.desc':
     'Pişirirken her şeyi sorun — ikameler, teknikler ve ipuçları hep yanınızda.',
+  'features.newBadge': 'Yeni',
+  'features.calories.title': 'Kalori Sayacı',
+  'features.calories.desc':
+    'Herhangi bir yemeğin fotoğrafını çekin — veya sadece adını yazın — saniyeler içinde kalori, protein, karbonhidrat ve yağı öğrenin.',
+  'features.collections.title': 'Tarif Koleksiyonları',
+  'features.collections.desc':
+    'Kaydettiğiniz tarifleri güzel koleksiyonlarda toplayın ve tek dokunuşla arkadaşlarınızla paylaşın.',
+  'features.planner.title': 'AI Yemek Planlayıcı',
+  'features.planner.desc':
+    'Bütçenize, hedeflerinize ve damak zevkinize göre planlanmış bir haftalık yemek — alışveriş listesiyle birlikte.',
 
   'preview.tag': 'Uygulama önizlemesi',
   'preview.title': 'Güzel ve mutfak için tasarlandı',
@@ -354,6 +509,43 @@ const tr: Dict = {
   'why.everyday.title': 'Ev aşçıları için',
   'why.everyday.desc':
     'Gerçek mutfaklar ve gerçek insanlar için tasarlandı — sadece restoran düzeyinde gösterişli tarifler değil, hızlı hafta içi yemekleri.',
+
+  'premium.tag': 'Premium',
+  'premium.title': "Premium ile daha ileri gidin",
+  'premium.subtitle':
+    'En güçlü yapay zekâ özelliklerinin kilidini açın — yemeğini ciddiye alanlar için tasarlandı.',
+  'premium.newChip': 'Yeni · Premium özellik',
+  'premium.calorie.title': 'Kalori Sayacı — ne yediğinizi tam olarak bilin',
+  'premium.calorie.desc':
+    'Kamerayı herhangi bir tabağa tutun — Savora analiz etsin: kalori, protein, karbonhidrat, yağ ve tam içerik dökümü — beslenme bilimi formülleriyle doğrulanmış, sizin dilinizde.',
+  'premium.point.photo': 'Fotoğraf analizi — kameradan veya galeriden',
+  'premium.point.text': 'Veya sadece yemeğin adını ve porsiyonunu yazın',
+  'premium.point.collections': 'Paylaşılabilir tarif koleksiyonları',
+  'premium.point.reminders': 'Akıllı yemek hatırlatıcıları ve günlük fikirler',
+  'premium.demo.dish': 'Tavuklu pilav',
+  'premium.demo.portion': '1 tabak (~400 g)',
+  'premium.demo.protein': 'Protein',
+  'premium.demo.carbs': 'Karb.',
+  'premium.demo.fat': 'Yağ',
+  'premium.plan.popular': 'En popüler',
+  'premium.plan.best': 'En avantajlı',
+  'premium.plan.perMonth': '/ay',
+  'premium.plan.free.name': 'Ücretsiz',
+  'premium.plan.free.f1': 'Günde 3 AI tarif ve 3 tarama',
+  'premium.plan.free.f2': 'Günde 10 AI sohbet mesajı',
+  'premium.plan.free.f3': 'Günde 1 yemek planı',
+  'premium.plan.free.f4': 'Koleksiyonlar ve kayıtlı tarifler',
+  'premium.plan.premium.name': 'Premium',
+  'premium.plan.premium.f1': 'Kalori Sayacı — günde 15 analiz',
+  'premium.plan.premium.f2': 'Günde 10 AI tarif ve 10 tarama',
+  'premium.plan.premium.f3': 'Günde 50 AI sohbet mesajı',
+  'premium.plan.premium.f4': 'Öncelikli AI yanıtları',
+  'premium.plan.pro.name': 'Pro',
+  'premium.plan.pro.f1': 'Kalori Sayacı — günde 40 analiz',
+  'premium.plan.pro.f2': 'Günde 25 AI tarif ve 20 tarama',
+  'premium.plan.pro.f3': 'Günde 100 AI sohbet mesajı',
+  'premium.plan.pro.f4': 'En hızlı AI + yeniliklere erken erişim',
+  'premium.note': "Planlar uygulama içinde yönetilir. Fiyatlar AZN cinsindendir; Google Play'de bölgesel fiyatlandırma.",
 
   'cta.tag': 'Yakında çıkıyor',
   'cta.title': 'Savora ile ilk pişiren siz olun',

@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import AppPreview from './components/AppPreview';
 import WhySavora from './components/WhySavora';
+import Premium from './components/Premium';
 import ComingSoon from './components/ComingSoon';
 import Footer from './components/Footer';
 import LegalModal from './components/LegalModal';
@@ -20,6 +21,7 @@ export default function App() {
         <Features />
         <AppPreview />
         <WhySavora />
+        <Premium />
         <ComingSoon />
       </main>
       <Footer onOpenLegal={setLegal} />
