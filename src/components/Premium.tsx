@@ -70,20 +70,20 @@ export default function Premium() {
 
           <Reveal className="calorie-demo" delay={120}>
             <div className="calorie-demo-card">
-              <img className="calorie-demo-photo" src="/img/plov.jpg" alt="" aria-hidden="true" />
+              <img className="calorie-demo-photo" src="/img/dolma.jpg" alt="" aria-hidden="true" />
               <div className="calorie-demo-head">
                 <span className="calorie-demo-dish">{t('premium.demo.dish')}</span>
                 <span className="calorie-demo-portion">{t('premium.demo.portion')}</span>
               </div>
               <div className="calorie-demo-kcal">
                 <Flame size={26} strokeWidth={2.2} />
-                <span className="calorie-demo-value">630</span>
+                <span className="calorie-demo-value">450</span>
                 <span className="calorie-demo-unit">kcal</span>
               </div>
               <div className="calorie-demo-macros">
-                <div className="macro-chip"><span>{t('premium.demo.protein')}</span><b>25 g</b></div>
-                <div className="macro-chip"><span>{t('premium.demo.carbs')}</span><b>60 g</b></div>
-                <div className="macro-chip"><span>{t('premium.demo.fat')}</span><b>30 g</b></div>
+                <div className="macro-chip"><span>{t('premium.demo.protein')}</span><b>20 g</b></div>
+                <div className="macro-chip"><span>{t('premium.demo.carbs')}</span><b>35 g</b></div>
+                <div className="macro-chip"><span>{t('premium.demo.fat')}</span><b>25 g</b></div>
               </div>
               <div className="calorie-demo-scan" aria-hidden="true" />
             </div>
