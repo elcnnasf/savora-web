@@ -70,7 +70,7 @@ export default function Premium() {
 
           <Reveal className="calorie-demo" delay={120}>
             <div className="calorie-demo-card">
-              <div className="calorie-demo-photo" aria-hidden="true">🍛</div>
+              <img className="calorie-demo-photo" src="/img/plov.jpg" alt="" aria-hidden="true" />
               <div className="calorie-demo-head">
                 <span className="calorie-demo-dish">{t('premium.demo.dish')}</span>
                 <span className="calorie-demo-portion">{t('premium.demo.portion')}</span>
